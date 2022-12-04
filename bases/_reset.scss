@@ -1,0 +1,21 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+body {
+    background-color: rgb(175, 210, 216);
+    font-family: "montseerat", sans-serif;
+}
+
+h1 {
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+    background-color: rgb(113, 113, 216);
+    color: blue;
+}
+
+

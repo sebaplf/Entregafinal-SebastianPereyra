@@ -1,0 +1,21 @@
+
+@import "./misc/variables";
+@import "./misc/mixin";
+@import "./utilities/normalizadores";
+@import "./utilities/footer";
+@import "./utilities/formulario";
+@import "./paginas/utv";
+@import "./utilities/menunavegacion";
+@import "./paginas/contactos";
+
+
+
+@if $vista == desktop {
+    p{font-size: 20px;}
+} @else {p{ font-size: 5px;}
+}
+
+
+
+
+

@@ -1,0 +1,36 @@
+.contenido {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+&_articulo {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+&_articulocontenido {
+
+    padding: 2rem;
+    border-radius: 10px;
+    margin-bottom: 3rem;
+    background-color: rgba(7, 125, 204, 0.438);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+

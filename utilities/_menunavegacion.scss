@@ -1,0 +1,45 @@
+.barranav__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    font-size: 19px;
+    padding-left: 1rem
+}
+
+
+
+.barranav__items {
+    display: inline-block;
+}
+
+.linknav {
+    color: n$primera;
+    display: inline-block;
+
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+}
+
+.submenu__items {
+    padding: 0px;
+}
+
+.submenu__items a {
+    color: $primera;
+    display:flex ;
+}
+
+.barranav__items:hover ul {
+    display: block;
+}
+
+.linknav:hover {
+    background-color: rgb(4, 1, 14);
+}
+
+
+
