@@ -14,7 +14,11 @@
 } @else {p{ font-size: 5px;}
 }
 
-
+.boton{
+    background-color: map-get($map: $estilos, $key:backaground-color );
+padding: map-get($map: $estilos, $key:padding );
+border-radius: map-get($map: $estilos, $key:border-radius );
+}
 
 
 

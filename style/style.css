@@ -390,3 +390,8 @@ h1 {
 
 p {
   font-size: 20px; }
+
+.boton {
+  background-color: beige;
+  padding: 5px;
+  border-radius: 4px; }
